@@ -7,6 +7,8 @@ import android.os.Bundle;
 
 import com.arsalan.pc.adapter.SectionStatePagerAadapter;
 import com.arsalan.pc.fragment.Fragment1;
+import com.arsalan.pc.fragment.Fragment2;
+import com.arsalan.pc.fragment.Fragment3;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -24,6 +26,12 @@ public class MainActivity extends AppCompatActivity {
     private void setupPager(ViewPager viewPager){
         SectionStatePagerAadapter adapter = new SectionStatePagerAadapter(getSupportFragmentManager());
         adapter.addFragemnt(new Fragment1(),"Fragment1");
+        adapter.addFragemnt(new Fragment2(),"Fragment2");
+        adapter.addFragemnt(new Fragment3(),"Fragment3");
         viewPager.setAdapter(adapter);
+    }
+
+    public void setViewPager(int index){
+        mViewPager.setCurrentItem(index);
     }
 }

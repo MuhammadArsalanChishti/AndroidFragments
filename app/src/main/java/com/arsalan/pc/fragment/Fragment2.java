@@ -15,9 +15,9 @@ import com.arsalan.pc.MainActivity;
 import com.arsalan.pc.R;
 import com.arsalan.pc.SecondActivity;
 
-public class Fragment1 extends Fragment {
+public class Fragment2 extends Fragment {
 
-    public static final String TAG="Fragment1";
+    public static final String TAG="Fragment2";
     private Button buttonFrg1;
     private Button buttonFrg2;
     private Button buttonFrg3;
@@ -27,7 +27,7 @@ public class Fragment1 extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 
-        View view = inflater.inflate(R.layout.fragment_layout,container,false);
+        View view = inflater.inflate(R.layout.fragment2_layout,container,false);
         intiViews(view);
         clicks();
 
