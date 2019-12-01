@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <!--xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"  -->
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_inbox"
+            android:title="Inbox"
+            android:icon="@drawable/ic_inbox"
+            />
+
+        <item
+            android:id="@+id/nav_outbox"
+            android:title="Out box"
+            android:icon="@drawable/ic_outbox"
+            />
+
+        <item
+            android:id="@+id/nav_trash"
+            android:title="Trash"
+            android:icon="@drawable/ic_delete"
+            />
+
+        <item
+            android:id="@+id/nav_spam"
+            android:title="Spam"
+            android:icon="@drawable/ic_spam"
+            />
+
+        <item
+            android:id="@+id/nav_forum"
+            android:title="Forum"
+            android:icon="@drawable/ic_forum"
+            />
+        <item
+            android:id="@+id/nav_social"
+            android:title="Social"
+            android:icon="@drawable/ic_inbox"
+            />
+
+    </group>
+    <item android:title="Communicate">
+
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:title="Share"
+                android:icon="@drawable/ic_share"
+                />
+
+            <item
+                android:id="@+id/nav_help"
+                android:title="Help"
+                android:icon="@drawable/ic_help"
+                />
+        </menu>
+
+    </item>
+</menu>
